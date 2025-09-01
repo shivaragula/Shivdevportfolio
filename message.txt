@@ -1,1 +1,18 @@
-hello welcome to sigma webdevelopment course by codewith harry bhai
+Ragula Shiva Shankar – Portfolio Overview
+
+I am a Computer Science Engineering graduate with hands-on experience in full-stack development and machine learning projects. Skilled in React.js, Node.js, Python, SQL, and a solid foundation in data structures and algorithms, I’ve built projects like:
+
+Full-Stack E-Commerce Platform – Secure authentication, REST APIs, optimized MySQL queries for 100+ concurrent users.
+
+Student Performance Prediction Model – ML model with 96% accuracy using Python and Scikit-Learn.
+
+Plant Disease Classification Model – CNN model with 90% accuracy and Flask-based API.
+
+I completed an internship at ZIDIO, contributing to backend optimization, reusable React components, and API performance improvements. I am eager to contribute as an entry-level software engineer by applying my technical expertise to build reliable and efficient solutions.
+
+Skills: Python, Java, JavaScript, C++, SQL, React.js, Node.js, Express.js, MySQL, REST APIs, TensorFlow, Keras, Pandas, NumPy, Git, Linux.
+
+Location: Hyderabad, Telangana, India
+Contact: +91-9573006351 | shiva.shankar4997@gmail.com
+ | LinkedIn
+ | GitHub
