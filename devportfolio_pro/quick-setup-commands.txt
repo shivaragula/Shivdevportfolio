@@ -1,0 +1,103 @@
+# Quick Setup Commands for GitHub Repositories
+
+# Prerequisites: Install GitHub CLI and login
+# gh auth login
+
+# Repository 1: ecommerce-analytics
+cd github-repos/ecommerce-analytics
+git init
+git add .
+git commit -m "Initial commit: E-commerce analytics dashboard with ML insights"
+gh repo create shivaragula/ecommerce-analytics --public --description "Real-time e-commerce analytics dashboard with ML-powered insights and predictive analytics" --source=. --push
+cd ../..
+
+# Repository 2: smart-task-manager
+cd github-repos/smart-task-manager
+git init
+git add .
+git commit -m "Initial commit: AI-powered task management system"
+gh repo create shivaragula/smart-task-manager --public --description "AI-powered task management system with intelligent prioritization and team collaboration" --source=. --push
+cd ../..
+
+# Repository 3: sentiment-analysis
+cd github-repos/sentiment-analysis
+git init
+git add .
+git commit -m "Initial commit: Customer sentiment analysis tool with ML"
+gh repo create shivaragula/sentiment-analysis --public --description "Machine learning tool for customer sentiment analysis with NLP and real-time processing" --source=. --push
+cd ../..
+
+# Repository 4: finance-tracker
+cd github-repos/finance-tracker
+git init
+git add .
+git commit -m "Initial commit: Personal finance tracker with budgeting features"
+gh repo create shivaragula/finance-tracker --public --description "Personal finance management app with expense tracking, budgeting, and financial insights" --source=. --push
+cd ../..
+
+# Repository 5: ai-cms
+cd github-repos/ai-cms
+git init
+git add .
+git commit -m "Initial commit: AI-powered content management system"
+gh repo create shivaragula/ai-cms --public --description "Intelligent content management system with AI-powered content generation and SEO optimization" --source=. --push
+cd ../..
+
+# Repository 6: collaboration-platform
+cd github-repos/collaboration-platform
+git init
+git add .
+git commit -m "Initial commit: Real-time collaboration platform with WebRTC"
+gh repo create shivaragula/collaboration-platform --public --description "Real-time collaboration platform with video conferencing, document sharing, and project management" --source=. --push
+cd ../..
+
+# Repository 7: smart-home-dashboard
+cd github-repos/smart-home-dashboard
+git init
+git add .
+git commit -m "Initial commit: Smart home IoT dashboard with automation"
+gh repo create shivaragula/smart-home-dashboard --public --description "IoT dashboard for smart home automation with energy monitoring and predictive maintenance" --source=. --push
+cd ../..
+
+# Repository 8: blockchain-supply-chain
+cd github-repos/blockchain-supply-chain
+git init
+git add .
+git commit -m "Initial commit: Blockchain supply chain tracking system"
+gh repo create shivaragula/blockchain-supply-chain --public --description "Blockchain-based supply chain tracking system for product authenticity and traceability" --source=. --push
+cd ../..
+
+# Repository 9: ml-deployment-platform
+cd github-repos/ml-deployment-platform
+git init
+git add .
+git commit -m "Initial commit: MLOps platform for model deployment"
+gh repo create shivaragula/ml-deployment-platform --public --description "MLOps platform for deploying and monitoring machine learning models in production" --source=. --push
+cd ../..
+
+# Repository 10: weather-ml-model
+cd github-repos/weather-ml-model
+git init
+git add .
+git commit -m "Initial commit: Weather prediction ML model with ensemble methods"
+gh repo create shivaragula/weather-ml-model --public --description "Advanced weather prediction system using ensemble ML methods and real-time data processing" --source=. --push
+cd ../..
+
+# Repository 11: collaborative-whiteboard
+cd github-repos/collaborative-whiteboard
+git init
+git add .
+git commit -m "Initial commit: WebRTC collaborative drawing application"
+gh repo create shivaragula/collaborative-whiteboard --public --description "WebRTC-based collaborative drawing application with real-time synchronization" --source=. --push
+cd ../..
+
+# Repository 12: realtime-dashboard
+cd github-repos/realtime-dashboard
+git init
+git add .
+git commit -m "Initial commit: Real-time analytics dashboard with custom widgets"
+gh repo create shivaragula/realtime-dashboard --public --description "Real-time analytics dashboard with customizable widgets and multi-source data integration" --source=. --push
+cd ../..
+
+echo "🎉 All 12 repositories created successfully!"
+echo "Visit https://github.com/shivaragula to see your new repositories"
