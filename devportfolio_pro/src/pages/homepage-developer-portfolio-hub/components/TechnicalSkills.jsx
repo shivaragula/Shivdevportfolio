@@ -13,44 +13,44 @@ const TechnicalSkills = () => {
       title: "Programming Languages",
       icon: "Code",
       skills: [
-        { name: "Python", level: 90, projects: 8, color: "from-blue-500 to-blue-600", icon: "FileCode" },
-        { name: "JavaScript", level: 85, projects: 12, color: "from-yellow-500 to-yellow-600", icon: "FileCode" },
-        { name: "TypeScript", level: 75, projects: 6, color: "from-blue-600 to-blue-700", icon: "FileCode" },
-        { name: "Java", level: 70, projects: 4, color: "from-red-500 to-red-600", icon: "FileCode" },
-        { name: "SQL", level: 80, projects: 10, color: "from-green-500 to-green-600", icon: "Database" }
+        { name: "Python", level: 65, projects: 3, color: "from-blue-500 to-blue-600", icon: "FileCode" },
+        { name: "JavaScript", level: 60, projects: 4, color: "from-yellow-500 to-yellow-600", icon: "FileCode" },
+        { name: "Java", level: 50, projects: 2, color: "from-red-500 to-red-600", icon: "FileCode" },
+        { name: "C++", level: 45, projects: 2, color: "from-purple-500 to-purple-600", icon: "FileCode" },
+        { name: "SQL", level: 55, projects: 3, color: "from-green-500 to-green-600", icon: "Database" }
       ]
     },
     frameworks: {
       title: "Frameworks & Libraries",
       icon: "Layers",
       skills: [
-        { name: "React", level: 88, projects: 10, color: "from-cyan-500 to-cyan-600", icon: "Component" },
-        { name: "Node.js", level: 82, projects: 8, color: "from-green-600 to-green-700", icon: "Server" },
-        { name: "Express.js", level: 80, projects: 7, color: "from-gray-600 to-gray-700", icon: "Zap" },
-        { name: "Django", level: 75, projects: 5, color: "from-green-700 to-green-800", icon: "Globe" },
-        { name: "Flask", level: 78, projects: 6, color: "from-blue-700 to-blue-800", icon: "Beaker" }
+        { name: "React", level: 60, projects: 3, color: "from-cyan-500 to-cyan-600", icon: "Component" },
+        { name: "Node.js", level: 50, projects: 2, color: "from-green-600 to-green-700", icon: "Server" },
+        { name: "Express.js", level: 45, projects: 2, color: "from-gray-600 to-gray-700", icon: "Zap" },
+        { name: "HTML5", level: 70, projects: 4, color: "from-orange-500 to-orange-600", icon: "Globe" },
+        { name: "CSS3", level: 65, projects: 4, color: "from-blue-500 to-blue-600", icon: "Palette" }
       ]
     },
     tools: {
       title: "Tools & Technologies",
       icon: "Settings",
       skills: [
-        { name: "Git", level: 85, projects: 15, color: "from-orange-500 to-orange-600", icon: "GitBranch" },
-        { name: "Docker", level: 70, projects: 4, color: "from-blue-500 to-blue-600", icon: "Package" },
-        { name: "AWS", level: 65, projects: 3, color: "from-yellow-600 to-orange-600", icon: "Cloud" },
-        { name: "MongoDB", level: 80, projects: 8, color: "from-green-500 to-green-600", icon: "Database" },
-        { name: "PostgreSQL", level: 75, projects: 6, color: "from-blue-600 to-blue-700", icon: "Database" }
+        { name: "Git", level: 55, projects: 4, color: "from-orange-500 to-orange-600", icon: "GitBranch" },
+        { name: "VS Code", level: 70, projects: 5, color: "from-blue-500 to-blue-600", icon: "Code" },
+        { name: "MySQL", level: 60, projects: 3, color: "from-blue-600 to-blue-700", icon: "Database" },
+        { name: "Linux", level: 40, projects: 1, color: "from-gray-600 to-gray-700", icon: "Terminal" },
+        { name: "GitHub", level: 55, projects: 4, color: "from-gray-500 to-gray-600", icon: "Github" }
       ]
     },
     datascience: {
       title: "Data Science & ML",
       icon: "BarChart3",
       skills: [
-        { name: "Pandas", level: 85, projects: 7, color: "from-purple-500 to-purple-600", icon: "Table" },
-        { name: "NumPy", level: 82, projects: 6, color: "from-blue-500 to-blue-600", icon: "Calculator" },
-        { name: "Scikit-learn", level: 80, projects: 5, color: "from-orange-500 to-orange-600", icon: "Brain" },
-        { name: "TensorFlow", level: 70, projects: 3, color: "from-orange-600 to-red-600", icon: "Cpu" },
-        { name: "Matplotlib", level: 78, projects: 8, color: "from-green-500 to-green-600", icon: "LineChart" }
+        { name: "Pandas", level: 60, projects: 2, color: "from-purple-500 to-purple-600", icon: "Table" },
+        { name: "NumPy", level: 55, projects: 2, color: "from-blue-500 to-blue-600", icon: "Calculator" },
+        { name: "Scikit-learn", level: 58, projects: 2, color: "from-orange-500 to-orange-600", icon: "Brain" },
+        { name: "TensorFlow", level: 45, projects: 1, color: "from-orange-600 to-red-600", icon: "Cpu" },
+        { name: "Matplotlib", level: 50, projects: 2, color: "from-green-500 to-green-600", icon: "LineChart" }
       ]
     }
   };
@@ -70,8 +70,8 @@ const TechnicalSkills = () => {
             Technical Skills Matrix
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Comprehensive overview of my technical expertise across different domains, 
-            with proficiency levels and project experience
+            Overview of my technical skills gained through academic coursework, personal projects, 
+            and internship experience as a recent graduate
           </p>
         </motion.div>
 
@@ -215,20 +215,20 @@ const TechnicalSkills = () => {
             <h3 className="text-xl font-bold text-primary mb-6">Skills Overview</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary mb-1">20+</div>
+                <div className="text-2xl font-bold text-primary mb-1">12+</div>
                 <div className="text-sm text-text-secondary">Technologies</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary mb-1">50+</div>
-                <div className="text-sm text-text-secondary">Projects</div>
+                <div className="text-2xl font-bold text-primary mb-1">15+</div>
+                <div className="text-sm text-text-secondary">Academic Projects</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary mb-1">85%</div>
+                <div className="text-2xl font-bold text-primary mb-1">55%</div>
                 <div className="text-sm text-text-secondary">Avg Proficiency</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary mb-1">2+</div>
-                <div className="text-sm text-text-secondary">Years Experience</div>
+                <div className="text-2xl font-bold text-primary mb-1">1</div>
+                <div className="text-sm text-text-secondary">Year Experience</div>
               </div>
             </div>
           </div>

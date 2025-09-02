@@ -4,39 +4,39 @@ import Icon from '../../../components/AppIcon';
 const LearningPathVisualization = () => {
   const learningPath = [
     {
-      phase: "Foundation",
+      phase: "Programming Basics",
       period: "2021-2022",
-      skills: ["Python", "Java", "SQL", "HTML/CSS"],
+      skills: ["C++", "Java", "Basic Programming"],
       status: "completed",
       icon: "BookOpen"
     },
     {
-      phase: "Web Development",
-      period: "2022-2023",
-      skills: ["React", "Node.js", "MongoDB", "Express"],
+      phase: "Web Fundamentals",
+      period: "2023",
+      skills: ["HTML5", "CSS3", "JavaScript", "Basic React"],
       status: "completed",
       icon: "Globe"
     },
     {
-      phase: "Data Science",
+      phase: "Full-Stack Learning",
       period: "2023-2024",
-      skills: ["Pandas", "NumPy", "Scikit-learn", "TensorFlow"],
+      skills: ["React", "Node.js", "MySQL", "Git"],
+      status: "completed",
+      icon: "Code"
+    },
+    {
+      phase: "Data Science Basics",
+      period: "2024",
+      skills: ["Python", "Pandas", "Scikit-learn", "Basic ML"],
       status: "completed",
       icon: "BarChart3"
     },
     {
-      phase: "Cloud & DevOps",
-      period: "2024-Present",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD"],
-      status: "in-progress",
-      icon: "Cloud"
-    },
-    {
-      phase: "Advanced AI/ML",
-      period: "2024-2025",
-      skills: ["PyTorch", "MLOps", "Computer Vision", "NLP"],
+      phase: "Professional Growth",
+      period: "2025+",
+      skills: ["TypeScript", "Advanced React", "Cloud Basics", "Best Practices"],
       status: "planned",
-      icon: "Brain"
+      icon: "Target"
     }
   ];
 

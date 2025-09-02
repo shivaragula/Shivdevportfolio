@@ -27,8 +27,8 @@ const ProjectsInnovationShowcase = () => {
     {
       id: 1,
       title: "Student Performance Prediction System",
-      description: "A machine learning system that predicts student academic performance using various educational and demographic factors.",
-      detailedDescription: `A data science project that analyzes student performance patterns using machine learning algorithms. The system processes educational data to identify at-risk students and provides insights for academic intervention.\n\nBuilt using Python and scikit-learn, the model achieves 96% accuracy in predicting student outcomes. The project includes data preprocessing, feature engineering, and model evaluation components.`,
+      description: "An academic machine learning project that predicts student performance using basic educational factors.",
+      detailedDescription: `An academic data science project that analyzes student performance patterns using basic machine learning algorithms. The system processes educational data to predict student outcomes as part of coursework learning.\n\nBuilt using Python and scikit-learn as a learning project, the model achieves reasonable accuracy in predicting student outcomes. The project includes basic data preprocessing, simple feature engineering, and model evaluation components.`,
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
       gallery: [
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
@@ -36,16 +36,16 @@ const ProjectsInnovationShowcase = () => {
       ],
       type: "Data Science",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Jupyter"],
-      complexity: "Intermediate",
+      complexity: "Beginner",
       status: "Completed",
-      duration: "3 months",
+      duration: "2 months",
       teamSize: 1,
-      role: "Data Scientist",
+      role: "Student Developer",
       githubUrl: "https://github.com/shivaragula/student-performance-prediction",
       metrics: [
-        { value: "96%", label: "Model Accuracy", description: "Prediction accuracy achieved" },
-        { value: "1000+", label: "Student Records", description: "Dataset size analyzed" },
-        { value: "15", label: "Features", description: "Input variables used" }
+        { value: "78%", label: "Model Accuracy", description: "Prediction accuracy achieved" },
+        { value: "500", label: "Student Records", description: "Dataset size analyzed" },
+        { value: "8", label: "Features", description: "Input variables used" }
       ],
       features: [
         "Data preprocessing and cleaning",
@@ -73,34 +73,34 @@ const ProjectsInnovationShowcase = () => {
         "Advanced ensemble methods"
       ],
       responsibilities: [
-        "Collected and preprocessed educational data",
-        "Developed and trained machine learning models",
-        "Created data visualizations and performance reports"
+        "Collected and cleaned basic educational data",
+        "Implemented simple machine learning models",
+        "Created basic data visualizations and reports"
       ]
     },
     {
       id: 2,
       title: "Plant Disease Classification App",
-      description: "A web application that uses deep learning to identify plant diseases from leaf images with 90% accuracy.",
-      detailedDescription: `A computer vision project that helps farmers and gardeners identify plant diseases by analyzing leaf images. The application uses a convolutional neural network trained on a dataset of healthy and diseased plant leaves.\n\nBuilt with TensorFlow and Keras for the ML model, and React for the web interface. The system provides disease identification, treatment recommendations, and confidence scores for predictions.`,
+      description: "An academic web application that uses basic deep learning to identify plant diseases from leaf images.",
+      detailedDescription: `An academic computer vision project that identifies plant diseases by analyzing leaf images. The application uses a basic convolutional neural network trained on a small dataset of healthy and diseased plant leaves.\n\nBuilt with TensorFlow and Keras for the ML model, and basic React for the web interface. The system provides simple disease identification and basic information about detected conditions.`,
       image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=600&fit=crop",
       gallery: [
         "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop"
       ],
       type: "Web Development",
-      technologies: ["Python", "TensorFlow", "Keras", "React", "Node.js", "Express"],
-      complexity: "Intermediate",
-      status: "Live",
-      duration: "4 months",
-      teamSize: 2,
-      role: "Full-Stack Developer",
+      technologies: ["Python", "TensorFlow", "Keras", "React", "Flask"],
+      complexity: "Beginner",
+      status: "Completed",
+      duration: "2 months",
+      teamSize: 1,
+      role: "Student Developer",
       liveUrl: "https://plant-disease-classifier.example.com",
       githubUrl: "https://github.com/shivaragula/plant-disease-classification",
       metrics: [
-        { value: "90%", label: "Classification Accuracy", description: "Disease detection accuracy" },
-        { value: "25", label: "Disease Types", description: "Supported plant diseases" },
-        { value: "5000+", label: "Training Images", description: "Dataset size used" }
+        { value: "72%", label: "Classification Accuracy", description: "Disease detection accuracy" },
+        { value: "5", label: "Disease Types", description: "Supported plant diseases" },
+        { value: "1000", label: "Training Images", description: "Dataset size used" }
       ],
       features: [
         "Image upload and preprocessing",
@@ -128,33 +128,33 @@ const ProjectsInnovationShowcase = () => {
         "Integration with agricultural databases"
       ],
       responsibilities: [
-        "Developed and trained the CNN model",
-        "Created the web application interface",
-        "Implemented image preprocessing pipeline"
+        "Implemented basic CNN model with guidance",
+        "Created simple web application interface",
+        "Learned image preprocessing techniques"
       ]
     },
     {
       id: 3,
       title: "E-commerce Website with Admin Panel",
-      description: "A full-stack e-commerce platform with user authentication, product management, and order processing capabilities.",
-      detailedDescription: `A complete e-commerce solution built with modern web technologies. The platform includes customer-facing features like product browsing, shopping cart, and checkout, along with an admin panel for inventory and order management.\n\nImplemented using React for the frontend, Node.js/Express for the backend, and MySQL for data storage. Features secure payment integration and responsive design for mobile compatibility.`,
+      description: "A basic e-commerce website with simple user authentication and product display functionality.",
+      detailedDescription: `A basic e-commerce solution built as an academic project. The platform includes simple customer-facing features like product browsing, basic shopping cart, and user registration, along with a simple admin interface for product management.\n\nImplemented using React for the frontend, Node.js/Express for the backend, and MySQL for data storage. Features basic authentication and responsive design for different screen sizes.`,
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
       gallery: [
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop"
       ],
       type: "Full-Stack",
-      technologies: ["React", "Node.js", "Express", "MySQL", "JWT", "Stripe API"],
-      complexity: "Intermediate",
+      technologies: ["React", "Node.js", "Express", "MySQL", "JWT"],
+      complexity: "Beginner",
       status: "Completed",
-      duration: "5 months",
+      duration: "3 months",
       teamSize: 1,
-      role: "Full-Stack Developer",
+      role: "Student Developer",
       githubUrl: "https://github.com/shivaragula/ecommerce-platform",
       metrics: [
-        { value: "100+", label: "Products", description: "Catalog capacity" },
-        { value: "5", label: "User Roles", description: "Different access levels" },
-        { value: "99%", label: "Uptime", description: "System reliability" }
+        { value: "20", label: "Products", description: "Sample catalog size" },
+        { value: "2", label: "User Roles", description: "Admin and Customer" },
+        { value: "Local", label: "Deployment", description: "Development environment" }
       ],
       features: [
         "User registration and authentication",
@@ -182,9 +182,9 @@ const ProjectsInnovationShowcase = () => {
         "Mobile app development"
       ],
       responsibilities: [
-        "Designed and implemented full-stack architecture",
-        "Developed user interface and admin panel",
-        "Integrated payment processing and security features"
+        "Learned and implemented basic full-stack architecture",
+        "Developed simple user interface and admin panel",
+        "Implemented basic authentication and security features"
       ]
     }
   ];
@@ -283,9 +283,9 @@ const ProjectsInnovationShowcase = () => {
     setSelectedProject(null);
   };
 
-  // Featured projects (top 2 with highest complexity and metrics)
+  // Featured projects (top 2 projects for entry-level showcase)
   const featuredProjects = useMemo(() => {
-    return projects?.filter(p => p?.complexity === 'Advanced' && p?.status === 'Live')?.slice(0, 2);
+    return projects?.filter(p => p?.status === 'Completed')?.slice(0, 2);
   }, []);
 
   return (
@@ -325,7 +325,7 @@ const ProjectsInnovationShowcase = () => {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">{projects?.length}</div>
-                  <div className="text-sm text-text-secondary">Total Projects</div>
+                  <div className="text-sm text-text-secondary">Academic Projects</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">
@@ -334,16 +334,14 @@ const ProjectsInnovationShowcase = () => {
                   <div className="text-sm text-text-secondary">Technologies</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">
-                    {projects?.filter(p => p?.teamSize > 1)?.length}
-                  </div>
-                  <div className="text-sm text-text-secondary">Team Projects</div>
+                  <div className="text-2xl font-bold text-primary">3</div>
+                  <div className="text-sm text-text-secondary">Months Internship</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-primary">
-                    {projects?.filter(p => p?.status === 'Live')?.length}
+                    {projects?.filter(p => p?.status === 'Completed')?.length}
                   </div>
-                  <div className="text-sm text-text-secondary">Live Projects</div>
+                  <div className="text-sm text-text-secondary">Completed Projects</div>
                 </div>
               </div>
             </motion.div>

@@ -8,10 +8,10 @@ const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const skills = [
-    { name: 'Python', level: 70, color: 'from-blue-500 to-blue-600' },
-    { name: 'React', level: 68, color: 'from-cyan-500 to-cyan-600' },
-    { name: 'Node.js', level: 65, color: 'from-green-500 to-green-600' },
-    { name: 'Data Science', level: 67, color: 'from-purple-500 to-purple-600' }
+    { name: 'Python', level: 65, color: 'from-blue-500 to-blue-600' },
+    { name: 'React', level: 60, color: 'from-cyan-500 to-cyan-600' },
+    { name: 'Node.js', level: 55, color: 'from-green-500 to-green-600' },
+    { name: 'Data Science', level: 58, color: 'from-purple-500 to-purple-600' }
   ];
 
   useEffect(() => {
@@ -89,10 +89,10 @@ const HeroSection = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-lg text-text-secondary leading-relaxed max-w-2xl"
             >
-              Full-stack developer and data science enthusiast passionate about creating 
-              innovative solutions that bridge the gap between complex algorithms and 
-              user-friendly applications. Currently seeking opportunities to contribute 
-              to impactful projects in a collaborative team environment.
+              Recent Computer Science graduate with internship experience in full-stack 
+              development and academic projects in data science. Eager to start my career 
+              and contribute to meaningful projects while learning from experienced developers 
+              in a collaborative team environment.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -135,7 +135,7 @@ const HeroSection = () => {
               className="grid grid-cols-3 gap-6 pt-8 border-t border-border"
             >
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-2xl font-bold text-primary">3</div>
                 <div className="text-sm text-text-secondary">Projects</div>
               </div>
               <div className="text-center">
@@ -143,8 +143,8 @@ const HeroSection = () => {
                 <div className="text-sm text-text-secondary">Technologies</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">2+</div>
-                <div className="text-sm text-text-secondary">Years Learning</div>
+                <div className="text-2xl font-bold text-primary">1</div>
+                <div className="text-sm text-text-secondary">Year Experience</div>
               </div>
             </motion.div>
           </motion.div>

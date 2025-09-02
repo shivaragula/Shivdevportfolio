@@ -8,95 +8,107 @@ const SkillsInActionSection = () => {
   const projectImplementations = [
     {
       id: 1,
-      title: "E-Commerce Analytics Dashboard",
-      description: "Real-time sales analytics with predictive modeling and customer segmentation",
-      technologies: ["Python", "React", "PostgreSQL", "TensorFlow", "AWS"],
-      codeSnippet: `# Customer Segmentation using K-Means
+      title: "Student Performance Prediction",
+      description: "Academic machine learning project to predict student outcomes using basic algorithms",
+      technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Jupyter"],
+      codeSnippet: `# Basic Student Performance Prediction
 import pandas as pd
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import accuracy_score
 
-def customer_segmentation(data):
-    # Feature engineering
-    features = ['purchase_frequency', 'avg_order_value', 'recency']
-    X = data[features].fillna(0)
+def predict_performance(data):
+    # Basic feature selection
+    features = ['study_hours', 'attendance', 'previous_grade']
+    X = data[features]
+    y = data['final_grade']
     
-    # K-Means clustering
-    kmeans = KMeans(n_clusters=4, random_state=42)
-    data['segment'] = kmeans.fit_predict(X)
+    # Train-test split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
     
-    return data, kmeans`,
+    # Simple linear regression
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+    
+    return model`,
       results: [
-        "40% improvement in customer targeting accuracy",
-        "25% increase in conversion rates",
-        "Real-time processing of 10K+ transactions/day"
+        "78% prediction accuracy achieved",
+        "Analyzed 500 student records",
+        "Identified key performance factors"
       ],
-      githubUrl: "https://github.com/shivaragula/ecommerce-analytics",
-      liveDemo: "https://analytics-demo.shivaportfolio.com"
+      githubUrl: "https://github.com/shivaragula/student-performance-prediction",
+      liveDemo: "https://github.com/shivaragula/student-performance-prediction"
     },
     {
       id: 2,
-      title: "Smart Task Management System",
-      description: "AI-powered task prioritization with natural language processing and team collaboration",
-      technologies: ["React", "Node.js", "MongoDB", "OpenAI API", "Socket.io"],
-      codeSnippet: `// AI-powered task prioritization
-const prioritizeTasks = async (tasks, userContext) => {
-  const prompt = \`Analyze these tasks and prioritize based on:
-  - Deadline urgency
-  - Business impact
-  - Dependencies
+      title: "Basic E-Commerce Website",
+      description: "Simple full-stack e-commerce platform with user authentication and product management",
+      technologies: ["React", "Node.js", "Express", "MySQL", "JWT"],
+      codeSnippet: `// Basic user authentication
+const express = require('express');
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
+
+const loginUser = async (req, res) => {
+  const { email, password } = req.body;
   
-  Tasks: \${JSON.stringify(tasks)}\`;
+  // Find user in database
+  const user = await User.findOne({ email });
+  if (!user) {
+    return res.status(401).json({ message: 'Invalid credentials' });
+  }
   
-  const response = await openai.chat.completions.create({
-    model: "gpt-4",
-    messages: [{ role: "user", content: prompt }]
-  });
+  // Check password
+  const isValid = await bcrypt.compare(password, user.password);
+  if (!isValid) {
+    return res.status(401).json({ message: 'Invalid credentials' });
+  }
   
-  return JSON.parse(response.choices[0].message.content);
+  // Generate JWT token
+  const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET);
+  res.json({ token, user: { id: user.id, email: user.email } });
 };`,
       results: [
-        "60% reduction in task completion time",
-        "90% user satisfaction rate",
-        "Supports 500+ concurrent users"
+        "Basic user authentication implemented",
+        "20 sample products in catalog",
+        "Local development environment setup"
       ],
-      githubUrl: "https://github.com/shivaragula/smart-task-manager",
-      liveDemo: "https://tasks.shivaportfolio.com"
+      githubUrl: "https://github.com/shivaragula/ecommerce-platform",
+      liveDemo: "https://github.com/shivaragula/ecommerce-platform"
     },
     {
       id: 3,
-      title: "Weather Prediction ML Model",
-      description: "Advanced weather forecasting using ensemble methods and real-time data processing",
-      technologies: ["Python", "Scikit-learn", "FastAPI", "Docker", "Grafana"],
-      codeSnippet: `# Ensemble Weather Prediction Model
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.linear_model import LinearRegression
-import numpy as np
+      title: "Plant Disease Classification",
+      description: "Basic computer vision project to identify plant diseases from leaf images",
+      technologies: ["Python", "TensorFlow", "Keras", "Flask", "OpenCV"],
+      codeSnippet: `# Basic CNN for Plant Disease Classification
+import tensorflow as tf
+from tensorflow.keras import layers, models
 
-class WeatherEnsemble:
-    def __init__(self):
-        self.models = {
-            'rf': RandomForestRegressor(n_estimators=100),
-            'gb': GradientBoostingRegressor(n_estimators=100),
-            'lr': LinearRegression()
-        }
-        
-    def fit(self, X, y):
-        for model in self.models.values():
-            model.fit(X, y)
+def create_simple_cnn():
+    model = models.Sequential([
+        layers.Conv2D(32, (3, 3), activation='relu', input_shape=(150, 150, 3)),
+        layers.MaxPooling2D(2, 2),
+        layers.Conv2D(64, (3, 3), activation='relu'),
+        layers.MaxPooling2D(2, 2),
+        layers.Conv2D(128, (3, 3), activation='relu'),
+        layers.MaxPooling2D(2, 2),
+        layers.Flatten(),
+        layers.Dense(512, activation='relu'),
+        layers.Dense(5, activation='softmax')  # 5 disease classes
+    ])
     
-    def predict(self, X):
-        predictions = np.array([
-            model.predict(X) for model in self.models.values()
-        ])
-        return np.mean(predictions, axis=0)`,
+    model.compile(optimizer='adam',
+                  loss='categorical_crossentropy',
+                  metrics=['accuracy'])
+    return model`,
       results: [
-        "85% accuracy in 7-day forecasts",
-        "Processing 1M+ data points daily",
-        "API serving 1000+ requests/minute"
+        "72% classification accuracy achieved",
+        "Trained on 1000 leaf images",
+        "5 different disease types detected"
       ],
-      githubUrl: "https://github.com/shivaragula/weather-ml-model",
-      liveDemo: "https://weather-api.shivaportfolio.com"
+      githubUrl: "https://github.com/shivaragula/plant-disease-classification",
+      liveDemo: "https://github.com/shivaragula/plant-disease-classification"
     }
   ];
 
@@ -110,7 +122,7 @@ class WeatherEnsemble:
         </div>
         <div>
           <h3 className="text-xl font-bold text-text-primary">Skills in Action</h3>
-          <p className="text-sm text-text-secondary">Real implementations and code samples</p>
+          <p className="text-sm text-text-secondary">Academic projects and learning implementations</p>
         </div>
       </div>
       {/* Project Selector */}

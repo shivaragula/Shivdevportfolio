@@ -11,80 +11,76 @@ const TechnicalEvolution = () => {
       title: 'Foundation Building',
       description: 'Started B.Tech CSE journey with programming fundamentals',
       skills: [
-        { name: 'C++', level: 60, category: 'Programming' },
-        { name: 'Java', level: 65, category: 'Programming' },
-        { name: 'HTML5', level: 75, category: 'Frontend' },
-        { name: 'CSS3', level: 70, category: 'Frontend' },
-        { name: 'MySQL', level: 60, category: 'Database' }
+        { name: 'C++', level: 40, category: 'Programming' },
+        { name: 'Java', level: 45, category: 'Programming' },
+        { name: 'HTML5', level: 50, category: 'Frontend' },
+        { name: 'CSS3', level: 45, category: 'Frontend' }
       ],
       milestones: [
         'Started B.Tech in Computer Science Engineering',
-        'Learned programming fundamentals',
-        'Built first web pages with HTML/CSS'
+        'Learned basic programming concepts',
+        'Built first simple web pages with HTML/CSS'
       ]
     },
     '2022': {
       year: '2022',
-      title: 'Web Development Focus',
-      description: 'Expanded into JavaScript and modern web development',
+      title: 'Programming Fundamentals',
+      description: 'Strengthened programming foundation and learned core concepts',
       skills: [
-        { name: 'JavaScript', level: 80, category: 'Programming' },
-        { name: 'Python', level: 75, category: 'Programming' },
-        { name: 'React.js', level: 70, category: 'Frontend' },
-        { name: 'HTML5', level: 85, category: 'Frontend' },
-        { name: 'CSS3', level: 80, category: 'Frontend' },
-        { name: 'MySQL', level: 75, category: 'Database' },
-        { name: 'Git', level: 70, category: 'Tools' }
+        { name: 'C++', level: 55, category: 'Programming' },
+        { name: 'Java', level: 60, category: 'Programming' },
+        { name: 'Python', level: 45, category: 'Programming' },
+        { name: 'HTML5', level: 65, category: 'Frontend' },
+        { name: 'CSS3', level: 60, category: 'Frontend' },
+        { name: 'MySQL', level: 50, category: 'Database' }
       ],
       milestones: [
-        'First React.js application built',
-        'Learned JavaScript ES6+ features',
-        'Started using Git for version control'
+        'Completed data structures and algorithms coursework',
+        'Built basic console applications',
+        'Learned database fundamentals'
       ]
     },
     '2023': {
       year: '2023',
-      title: 'Full-Stack & ML Integration',
-      description: 'Gained internship experience and explored machine learning',
+      title: 'Web Development & Internship',
+      description: 'Started web development and gained first internship experience',
       skills: [
-        { name: 'Python', level: 90, category: 'Programming' },
-        { name: 'JavaScript', level: 85, category: 'Programming' },
-        { name: 'React.js', level: 85, category: 'Frontend' },
-        { name: 'Node.js', level: 80, category: 'Backend' },
-        { name: 'Express.js', level: 75, category: 'Backend' },
-        { name: 'TensorFlow', level: 70, category: 'Machine Learning' },
-        { name: 'Scikit-Learn', level: 75, category: 'Machine Learning' },
-        { name: 'Pandas', level: 80, category: 'Machine Learning' },
-        { name: 'NumPy', level: 75, category: 'Machine Learning' }
+        { name: 'JavaScript', level: 60, category: 'Programming' },
+        { name: 'Python', level: 65, category: 'Programming' },
+        { name: 'React.js', level: 55, category: 'Frontend' },
+        { name: 'Node.js', level: 45, category: 'Backend' },
+        { name: 'HTML5', level: 75, category: 'Frontend' },
+        { name: 'CSS3', level: 70, category: 'Frontend' },
+        { name: 'MySQL', level: 60, category: 'Database' },
+        { name: 'Git', level: 55, category: 'Tools' }
       ],
       milestones: [
-        'Completed internship at ZIDIO',
-        'Built plant disease classification model (80% accuracy)',
-        'Started machine learning projects'
+        'Completed 3-month internship at ZIDIO',
+        'Built first React.js application',
+        'Started learning backend development'
       ]
     },
     '2024': {
       year: '2024',
-      title: 'Advanced Projects & Optimization',
-      description: 'Built complex projects and achieved high accuracy ML models',
+      title: 'Project Development & Learning',
+      description: 'Built academic projects and explored machine learning basics',
       skills: [
-        { name: 'Python', level: 95, category: 'Programming' },
-        { name: 'JavaScript', level: 90, category: 'Programming' },
-        { name: 'React.js', level: 90, category: 'Frontend' },
-        { name: 'Node.js', level: 85, category: 'Backend' },
-        { name: 'Express.js', level: 85, category: 'Backend' },
-        { name: 'MySQL', level: 85, category: 'Database' },
-        { name: 'TensorFlow', level: 80, category: 'Machine Learning' },
-        { name: 'Keras', level: 75, category: 'Machine Learning' },
-        { name: 'Scikit-Learn', level: 85, category: 'Machine Learning' },
-        { name: 'Git', level: 85, category: 'Tools' },
-        { name: 'Linux', level: 75, category: 'Tools' },
-        { name: 'VS Code', level: 90, category: 'Tools' }
+        { name: 'Python', level: 70, category: 'Programming' },
+        { name: 'JavaScript', level: 65, category: 'Programming' },
+        { name: 'React.js', level: 65, category: 'Frontend' },
+        { name: 'Node.js', level: 55, category: 'Backend' },
+        { name: 'Express.js', level: 50, category: 'Backend' },
+        { name: 'MySQL', level: 65, category: 'Database' },
+        { name: 'TensorFlow', level: 45, category: 'Machine Learning' },
+        { name: 'Scikit-Learn', level: 60, category: 'Machine Learning' },
+        { name: 'Pandas', level: 65, category: 'Machine Learning' },
+        { name: 'Git', level: 60, category: 'Tools' },
+        { name: 'VS Code', level: 70, category: 'Tools' }
       ],
       milestones: [
-        'Built e-commerce platform supporting 100+ users',
-        'Achieved 96% accuracy in student performance prediction',
-        'Optimized API response times by 15%',
+        'Built basic e-commerce platform as academic project',
+        'Developed student performance prediction model',
+        'Created plant disease classification system',
         'Completed Full Stack Development certification'
       ]
     }
@@ -247,19 +243,19 @@ const TechnicalEvolution = () => {
             <h3 className="text-2xl font-bold text-primary mb-4">Evolution Highlights</h3>
             <div className="grid md:grid-cols-4 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">3+</div>
-                <p className="text-sm text-text-secondary">Years of Learning</p>
+                <div className="text-3xl font-bold text-accent mb-2">1</div>
+                <p className="text-sm text-text-secondary">Year of Experience</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">15+</div>
-                <p className="text-sm text-text-secondary">Technologies Mastered</p>
+                <div className="text-3xl font-bold text-accent mb-2">12+</div>
+                <p className="text-sm text-text-secondary">Technologies Learned</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-accent mb-2">6</div>
                 <p className="text-sm text-text-secondary">Skill Categories</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">85%+</div>
+                <div className="text-3xl font-bold text-accent mb-2">60%+</div>
                 <p className="text-sm text-text-secondary">Average Proficiency</p>
               </div>
             </div>

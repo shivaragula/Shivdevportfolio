@@ -4,14 +4,43 @@ import Icon from '../../../components/AppIcon';
 const SkillCategoryCard = ({ category, skills, icon, color, delay = 0 }) => {
   const [hoveredSkill, setHoveredSkill] = useState(null);
 
-  const getProficiencyColor = (level) => {
-    // All skills show as intermediate level (70%)
-    return 'bg-accent';
+  const getProficiencyColor = (proficiency) => {
+    switch (proficiency) {
+      case 'Advanced':
+        return 'bg-success';
+      case 'Intermediate':
+        return 'bg-accent';
+      case 'Beginner':
+        return 'bg-warning';
+      default:
+        return 'bg-accent';
+    }
   };
 
-  const getProficiencyWidth = (level) => {
-    // All skills show 70% proficiency
-    return 'w-[70%]';
+  const getProficiencyWidth = (proficiency) => {
+    switch (proficiency) {
+      case 'Advanced':
+        return 'w-[80%]';
+      case 'Intermediate':
+        return 'w-[60%]';
+      case 'Beginner':
+        return 'w-[40%]';
+      default:
+        return 'w-[60%]';
+    }
+  };
+
+  const getProficiencyPercentage = (proficiency) => {
+    switch (proficiency) {
+      case 'Advanced':
+        return '80%';
+      case 'Intermediate':
+        return '60%';
+      case 'Beginner':
+        return '40%';
+      default:
+        return '60%';
+    }
   };
 
   return (
@@ -52,7 +81,7 @@ const SkillCategoryCard = ({ category, skills, icon, color, delay = 0 }) => {
               </div>
               <div className="flex items-center space-x-2">
                 <span className={`px-2 py-1 rounded-full text-xs font-medium ${getProficiencyColor(skill?.proficiency)} text-white`}>
-                  70%
+                  {getProficiencyPercentage(skill?.proficiency)}
                 </span>
                 {skill?.certified && (
                   <Icon name="Award" size={16} className="text-success" />

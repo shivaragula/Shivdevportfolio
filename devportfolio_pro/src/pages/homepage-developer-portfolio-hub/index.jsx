@@ -13,11 +13,11 @@ const HomepageDeveloperPortfolioHub = () => {
   return (
     <>
       <Helmet>
-        <title>Shiva Shankar - Software Developer & Data Science Enthusiast |Portfolio </title>
-        <meta name="description" content="Transforming complex problems into elegant solutions. Explore Shiva Shankar's portfolio showcasing full-stack development, data science projects, and innovative problem-solving capabilities." />
-        <meta name="keywords" content="full-stack developer, data science, React, Python, Node.js, machine learning, portfolio, software engineer" />
-        <meta property="og:title" content="Shiva Shankar - Developer Portfolio" />
-        <meta property="og:description" content="Full-stack developer and data science enthusiast passionate about creating innovative solutions" />
+        <title>Shiva Shankar - Entry-Level Software Developer | Fresh Graduate Portfolio</title>
+        <meta name="description" content="Recent Computer Science graduate seeking entry-level software developer opportunities. Explore Shiva Shankar's portfolio showcasing academic projects, internship experience, and eagerness to learn." />
+        <meta name="keywords" content="entry-level developer, fresh graduate, React, Python, Node.js, internship, portfolio, junior software engineer" />
+        <meta property="og:title" content="Shiva Shankar - Entry-Level Developer Portfolio" />
+        <meta property="og:description" content="Recent Computer Science graduate eager to start career in software development" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shiva Shankar - Developer Portfolio" />
@@ -63,8 +63,8 @@ const HomepageDeveloperPortfolioHub = () => {
                   </div>
                 </div>
                 <p className="text-primary-foreground/80 text-sm leading-relaxed">
-                  Full-stack developer and data science enthusiast passionate about 
-                  creating innovative solutions that make a difference.
+                  Recent Computer Science graduate eager to start career in software 
+                  development and contribute to meaningful projects.
                 </p>
               </div>
 

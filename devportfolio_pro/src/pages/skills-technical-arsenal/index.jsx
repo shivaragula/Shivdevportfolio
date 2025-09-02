@@ -23,26 +23,26 @@ const SkillsTechnicalArsenal = () => {
       skills: [
         {
           name: "Python",
-          proficiency: "Advanced",
-          experience: "3+ years",
-          projects: ["Student Performance Prediction", "Plant Disease Classification", "Data Analysis"],
-          timeline: "Started in 2022, focused on machine learning and data science",
-          nextGoal: "Master advanced ML algorithms and deep learning frameworks",
+          proficiency: "3 months",
+          experience: "Beginner",
+          projects: ["Student Performance Prediction", "Plant Disease Classification", "Academic Projects"],
+          timeline: "Started in 2023, focused on machine learning basics and data analysis",
+          nextGoal: "Learn more ML algorithms and improve model accuracy",
           certified: true
         },
         {
           name: "JavaScript",
-          proficiency: "Advanced",
-          experience: "2+ years",
-          projects: ["E-commerce Platform", "React Components", "Full-Stack Applications"],
-          timeline: "Began in 2022, mastered ES6+ features and modern frameworks",
-          nextGoal: "Explore advanced performance optimization and TypeScript",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["E-commerce Platform", "React Components", "University Projects"],
+          timeline: "Began in 2023, learning ES6+ features and modern frameworks",
+          nextGoal: "Learn TypeScript and improve JavaScript skills",
           certified: false
         },
         {
           name: "Java",
-          proficiency: "Intermediate",
-          experience: "2+ years",
+          proficiency: "Beginner",
+          experience: "4 months",
           projects: ["University Projects", "Object-Oriented Programming", "Data Structures"],
           timeline: "University foundation course, focus on OOP concepts",
           nextGoal: "Learn Spring Boot and enterprise Java development",
@@ -50,20 +50,20 @@ const SkillsTechnicalArsenal = () => {
         },
         {
           name: "C++",
-          proficiency: "Intermediate",
-          experience: "2+ years",
-          projects: ["Data Structures", "Algorithms", "Competitive Programming"],
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Data Structures", "Algorithms", "Academic Assignments"],
           timeline: "University foundation, focus on algorithmic problem solving",
           nextGoal: "Master advanced algorithms and system programming",
           certified: false
         },
         {
           name: "SQL",
-          proficiency: "Advanced",
-          experience: "2+ years",
-          projects: ["Database Design", "E-commerce Platform", "Data Management"],
-          timeline: "Learned for database management and data analysis",
-          nextGoal: "Master advanced query optimization and database administration",
+          proficiency: "Beginner",
+          experience: "4 months",
+          projects: ["Database Design", "E-commerce Platform", "Academic Projects"],
+          timeline: "Learned for database management and basic data analysis",
+          nextGoal: "Learn database optimization and design patterns",
           certified: false
         }
       ]
@@ -75,45 +75,45 @@ const SkillsTechnicalArsenal = () => {
       skills: [
         {
           name: "React.js",
-          proficiency: "Advanced",
-          experience: "2+ years",
-          projects: ["E-commerce Platform", "Component Library", "Portfolio Website"],
-          timeline: "Started in 2023, mastered hooks, context, and modern patterns",
-          nextGoal: "Master React 18 concurrent features and advanced optimization",
+          proficiency: "Beginner",
+          experience: "4 months",
+          projects: ["E-commerce Platform", "Portfolio Website", "University Projects"],
+          timeline: "Started in 2024, learning hooks, components, and basic patterns",
+          nextGoal: "Learn React best practices and state management",
           certified: false
         },
         {
           name: "Node.js",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["REST APIs", "E-commerce Backend", "Authentication System"],
-          timeline: "Backend development during internship and projects",
-          nextGoal: "Learn advanced clustering and microservices architecture",
+          proficiency: "Beginner",
+          experience: "6 months",
+          projects: ["Basic APIs", "E-commerce Backend", "Internship Projects"],
+          timeline: "Backend development during internship and academic projects",
+          nextGoal: "Improve backend development and API design skills",
           certified: false
         },
         {
           name: "Express.js",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["API Development", "E-commerce Backend", "RESTful Services"],
-          timeline: "Primary backend framework for API development",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Basic API Development", "Simple Backend", "Learning Projects"],
+          timeline: "Learning backend framework during internship",
           nextGoal: "Explore GraphQL and advanced middleware patterns",
           certified: false
         },
         {
           name: "HTML5",
-          proficiency: "Advanced",
-          experience: "3+ years",
-          projects: ["All Web Projects", "Responsive Design", "Semantic Markup"],
-          timeline: "Foundation skill for all web development projects",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Web Projects", "Responsive Design", "University Assignments"],
+          timeline: "Foundation skill for web development projects",
           nextGoal: "Master advanced HTML5 APIs and web components",
           certified: false
         },
         {
           name: "CSS3",
-          proficiency: "Advanced",
-          experience: "3+ years",
-          projects: ["Responsive Design", "UI Components", "Modern Layouts"],
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Responsive Design", "Basic UI Components", "Styling Projects"],
           timeline: "Styling foundation with focus on responsive design",
           nextGoal: "Master CSS Grid, animations, and design systems",
           certified: false
@@ -127,46 +127,46 @@ const SkillsTechnicalArsenal = () => {
       skills: [
         {
           name: "TensorFlow",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["Plant Disease Classification", "CNN Models", "Deep Learning"],
-          timeline: "Used for building neural networks achieving 90% accuracy",
+          proficiency: "Beginner",
+          experience: "6 months",
+          projects: ["Plant Disease Classification", "Basic CNN Models", "Academic Projects"],
+          timeline: "Used for building basic neural networks in academic projects",
           nextGoal: "Master advanced architectures and model deployment",
           certified: false
         },
         {
           name: "Keras",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["Neural Network Models", "Image Classification", "Model Training"],
-          timeline: "High-level API for building and training deep learning models",
+          proficiency: "Beginner",
+          experience: "6 months",
+          projects: ["Basic Neural Networks", "Image Classification", "Learning Projects"],
+          timeline: "High-level API for building and training basic deep learning models",
           nextGoal: "Explore advanced model architectures and optimization",
           certified: false
         },
         {
           name: "Scikit-Learn",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["Student Performance Prediction", "Classification Models", "Data Analysis"],
-          timeline: "Primary ML library achieving 96% accuracy in prediction models",
+          proficiency: "Beginner",
+          experience: "5 months",
+          projects: ["Student Performance Prediction", "Basic Classification", "Academic Analysis"],
+          timeline: "Primary ML library for academic projects and learning",
           nextGoal: "Master ensemble methods and advanced feature engineering",
           certified: false
         },
         {
           name: "Pandas",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["Data Preprocessing", "Feature Engineering", "Data Analysis"],
-          timeline: "Core tool for data manipulation in ML projects",
+          proficiency: "Beginner",
+          experience: "5 months",
+          projects: ["Data Preprocessing", "Basic Analysis", "Academic Projects"],
+          timeline: "Core tool for data manipulation in academic ML projects",
           nextGoal: "Master advanced data manipulation and optimization techniques",
           certified: false
         },
         {
           name: "NumPy",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["Mathematical Computing", "Array Operations", "Scientific Computing"],
-          timeline: "Foundation for numerical computing in ML projects",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Mathematical Computing", "Array Operations", "Academic Computing"],
+          timeline: "Foundation for numerical computing in academic projects",
           nextGoal: "Explore advanced mathematical operations and optimization",
           certified: false
         }
@@ -179,37 +179,37 @@ const SkillsTechnicalArsenal = () => {
       skills: [
         {
           name: "MySQL",
-          proficiency: "Advanced",
-          experience: "2+ years",
-          projects: ["E-commerce Platform", "Database Design", "Data Management"],
-          timeline: "Primary relational database for web applications",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["E-commerce Platform", "Basic Database Design", "Academic Projects"],
+          timeline: "Primary relational database for academic and internship projects",
           nextGoal: "Master advanced query optimization and database administration",
           certified: false
         },
         {
           name: "Git",
-          proficiency: "Advanced",
-          experience: "2+ years",
-          projects: ["All Projects", "Version Control", "Team Collaboration"],
-          timeline: "Version control for all development work",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Academic Projects", "Version Control", "Basic Collaboration"],
+          timeline: "Version control for academic and internship work",
           nextGoal: "Master advanced Git workflows and branching strategies",
           certified: false
         },
         {
           name: "GitHub",
-          proficiency: "Advanced",
-          experience: "2+ years",
-          projects: ["Code Repository", "Project Management", "Collaboration"],
-          timeline: "Primary platform for code hosting and collaboration",
+          proficiency: "Intermediate",
+          experience: "3 months",
+          projects: ["Code Repository", "Project Hosting", "Basic Collaboration"],
+          timeline: "Platform for code hosting and academic project sharing",
           nextGoal: "Master GitHub Actions and advanced collaboration features",
           certified: false
         },
         {
           name: "Linux",
-          proficiency: "Intermediate",
-          experience: "1+ year",
-          projects: ["Development Environment", "Server Management", "Command Line"],
-          timeline: "Operating system for development and deployment",
+          proficiency: "Beginner",
+          experience: "2 months",
+          projects: ["Development Environment", "Basic Commands", "Learning"],
+          timeline: "Operating system for development environment setup",
           nextGoal: "Master system administration and shell scripting",
           certified: false
         }
@@ -222,46 +222,46 @@ const SkillsTechnicalArsenal = () => {
       skills: [
         {
           name: "VS Code",
-          proficiency: "Advanced",
-          experience: "3+ years",
-          projects: ["All Development Work", "Extensions", "Custom Configurations"],
-          timeline: "Primary IDE for all development activities",
+          proficiency: "Intermediate",
+          experience: "3 months",
+          projects: ["Academic Development Work", "Basic Extensions", "Learning"],
+          timeline: "Primary IDE for academic and internship development",
           nextGoal: "Master advanced debugging and productivity extensions",
           certified: false
         },
         {
           name: "Jupyter Notebook",
-          proficiency: "Advanced",
-          experience: "1+ year",
-          projects: ["Data Analysis", "ML Model Development", "Research"],
-          timeline: "Primary tool for data science and machine learning work",
+          proficiency: "Beginner",
+          experience: "3 months",
+          projects: ["Data Analysis", "Basic ML Models", "Academic Research"],
+          timeline: "Tool for data science and machine learning coursework",
           nextGoal: "Master advanced notebook features and JupyterLab",
           certified: false
         },
         {
           name: "Agile Methodology",
-          proficiency: "Intermediate",
+          proficiency: "Beginner",
           experience: "3 months",
-          projects: ["ZIDIO Internship", "Team Collaboration", "Sprint Planning"],
-          timeline: "Learned during internship with hands-on experience",
+          projects: ["ZIDIO Internship", "Team Collaboration", "Basic Sprint Work"],
+          timeline: "Learned during internship with basic hands-on experience",
           nextGoal: "Master Scrum framework and project management",
           certified: false
         },
         {
           name: "CI/CD",
           proficiency: "Beginner",
-          experience: "6 months",
-          projects: ["Deployment Automation", "Code Integration", "Testing"],
-          timeline: "Basic understanding of continuous integration practices",
+          experience: "2 months",
+          projects: ["Basic Deployment", "Learning Projects", "Academic Understanding"],
+          timeline: "Basic understanding of continuous integration concepts",
           nextGoal: "Master GitHub Actions and advanced deployment strategies",
           certified: false
         },
         {
           name: "Code Review",
-          proficiency: "Intermediate",
+          proficiency: "Beginner",
           experience: "3 months",
-          projects: ["Team Projects", "Quality Assurance", "Best Practices"],
-          timeline: "Participated in code reviews during internship",
+          projects: ["Internship Projects", "Peer Review", "Learning Best Practices"],
+          timeline: "Participated in basic code reviews during internship",
           nextGoal: "Master advanced code review techniques and mentoring",
           certified: false
         }
@@ -282,17 +282,17 @@ const SkillsTechnicalArsenal = () => {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
-              Technical <span className="text-gradient">Arsenal</span>
+              Technical <span className="text-gradient">Skills</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto mb-8">
-              A comprehensive showcase of my technical competencies, certifications, and continuous learning journey. 
-              Explore my skills through interactive visualizations, real project implementations, and industry alignment analysis.
+              My technical skills and learning journey as a recent Computer Science graduate. 
+              Explore the technologies I've learned through coursework, personal projects, and internship experience.
             </p>
             
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
               <div className="p-4 bg-card rounded-lg shadow-elevation border border-border">
-                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-2xl font-bold text-primary">12+</div>
                 <div className="text-sm text-text-secondary">Technologies</div>
               </div>
               <div className="p-4 bg-card rounded-lg shadow-elevation border border-border">
@@ -300,11 +300,11 @@ const SkillsTechnicalArsenal = () => {
                 <div className="text-sm text-text-secondary">Certifications</div>
               </div>
               <div className="p-4 bg-card rounded-lg shadow-elevation border border-border">
-                <div className="text-2xl font-bold text-accent">3+</div>
-                <div className="text-sm text-text-secondary">Years Learning</div>
+                <div className="text-2xl font-bold text-accent">1</div>
+                <div className="text-sm text-text-secondary">Year Experience</div>
               </div>
               <div className="p-4 bg-card rounded-lg shadow-elevation border border-border">
-                <div className="text-2xl font-bold text-warning">5+</div>
+                <div className="text-2xl font-bold text-warning">3</div>
                 <div className="text-sm text-text-secondary">Projects Built</div>
               </div>
             </div>
@@ -315,9 +315,9 @@ const SkillsTechnicalArsenal = () => {
       <section className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-text-primary mb-4">Technical Competency Matrix</h2>
+            <h2 className="text-3xl font-bold text-text-primary mb-4">Technical Skills Overview</h2>
             <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-              Interactive skill categories with proficiency levels, project applications, and learning timelines
+              My technical skills gained through academic coursework, personal projects, and internship experience
             </p>
           </div>
           
@@ -379,9 +379,9 @@ const SkillsTechnicalArsenal = () => {
               <Icon name="Rocket" size={24} className="text-white" />
             </div>
           </div>
-          <h2 className="text-3xl font-bold text-text-primary mb-4">Ready to Collaborate?</h2>
+          <h2 className="text-3xl font-bold text-text-primary mb-4">Ready to Learn and Contribute?</h2>
           <p className="text-lg text-text-secondary mb-8 max-w-2xl mx-auto">
-            Let's discuss how my technical skills can contribute to your next project. I'm always excited to tackle new challenges and learn emerging technologies.
+            I'm eager to apply my technical skills in a professional environment and continue learning from experienced developers. Let's discuss how I can contribute to your team.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

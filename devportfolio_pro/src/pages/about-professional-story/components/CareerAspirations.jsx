@@ -6,38 +6,38 @@ const CareerAspirations = () => {
   const careerGoals = [
     {
       timeline: 'Immediate (0-1 year)',
-      title: 'Full-Stack Developer Role',
-      description: 'Seeking a position where I can apply my full-stack development skills while contributing to data-driven products.',
+      title: 'Entry-Level Software Developer',
+      description: 'Seeking a junior developer position where I can apply my academic knowledge and grow my technical skills.',
       objectives: [
-        'Join a dynamic team building scalable web applications',
-        'Work on projects that combine frontend excellence with backend robustness',
-        'Contribute to data science initiatives and ML model deployment',
-        'Mentor junior developers and share knowledge'
+        'Join a supportive team to learn industry best practices',
+        'Work on real-world projects to gain practical experience',
+        'Contribute to web development and data analysis projects',
+        'Learn from senior developers and expand my skill set'
       ],
       icon: 'Target',
       color: 'bg-success'
     },
     {
       timeline: 'Short-term (1-3 years)',
-      title: 'Technical Leadership',
-      description: 'Evolve into a technical lead role, architecting solutions and guiding development teams.',
+      title: 'Mid-Level Developer',
+      description: 'Grow into a confident developer role, taking ownership of features and contributing to technical decisions.',
       objectives: [
-        'Lead cross-functional teams on complex technical projects',
-        'Architect scalable systems handling millions of users',
-        'Drive adoption of best practices and modern technologies',
-        'Contribute to product strategy and technical roadmaps'
+        'Take ownership of complete features and modules',
+        'Contribute to system design and architecture discussions',
+        'Mentor new team members and interns',
+        'Specialize in full-stack development or data science'
       ],
       icon: 'Users',
       color: 'bg-primary'
     },
     {
       timeline: 'Long-term (3-5 years)',
-      title: 'Innovation & Impact',
-      description: 'Focus on creating innovative solutions that solve real-world problems at scale.',
+      title: 'Senior Developer & Technical Leadership',
+      description: 'Evolve into a senior role, leading projects and contributing to technical strategy.',
       objectives: [
-        'Lead R&D initiatives in AI/ML applications',
-        'Build and scale engineering teams',
-        'Drive digital transformation initiatives',
+        'Lead technical projects and guide development teams',
+        'Contribute to architectural decisions and system design',
+        'Drive adoption of best practices and new technologies',
         'Contribute to open-source projects and tech community'
       ],
       icon: 'Rocket',

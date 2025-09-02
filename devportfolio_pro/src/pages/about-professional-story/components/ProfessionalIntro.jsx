@@ -51,21 +51,21 @@ const ProfessionalIntro = ({ onResumeDownload }) => {
               </h1>
 
               <p className="text-xl text-text-secondary leading-relaxed">
-                Computer Science Engineering graduate passionate about building reliable and efficient solutions
+                Recent Computer Science Engineering graduate eager to start my career in software development
               </p>
             </div>
 
             <div className="prose prose-lg text-text-secondary">
               <p>
-                Computer Science Engineering graduate with internship experience in full-stack development and hands-on
-                academic projects in machine learning. Skilled in React.js, Node.js, Python, and SQL with a solid
-                foundation in data structures and algorithms.
+                Fresh Computer Science Engineering graduate with 3-month internship experience and strong academic 
+                foundation in full-stack development. Proficient in React.js, Node.js, Python, and SQL with hands-on 
+                experience through university projects and internship work.
               </p>
 
               <p>
-                Built projects including an e-commerce platform, a student performance prediction model (96% accuracy),
-                and a plant disease classification model (90% accuracy). Eager to contribute as an entry-level software
-                engineer by applying technical expertise to build reliable and efficient solutions.
+                Developed academic projects including a basic e-commerce platform, a student performance prediction 
+                model, and a plant disease classification system. Seeking an entry-level software developer position 
+                to apply my technical skills and grow within a collaborative team environment.
               </p>
             </div>
 

@@ -12,95 +12,95 @@ const FeaturedProjects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Analytics Dashboard",
-      subtitle: "Full-Stack Web Application",
-      description: "A comprehensive analytics dashboard for e-commerce businesses featuring real-time sales tracking, customer behavior analysis, and predictive insights using machine learning algorithms.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-      technologies: ["React", "Node.js", "Python", "MongoDB", "Chart.js"],
+      title: "Student Performance Prediction",
+      subtitle: "Academic Machine Learning Project",
+      description: "An academic project that analyzes student performance patterns using basic machine learning algorithms. Built as part of coursework to understand data science fundamentals and model evaluation.",
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop",
+      technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Jupyter"],
       metrics: {
-        users: "2.5K+",
-        performance: "40%",
-        rating: "4.8/5"
+        accuracy: "78%",
+        records: "500",
+        features: "8"
       },
       features: [
-        "Real-time data visualization",
-        "Predictive analytics with ML",
-        "Responsive design",
-        "RESTful API integration"
+        "Data preprocessing and cleaning",
+        "Basic feature engineering",
+        "Model evaluation and validation",
+        "Simple data visualizations"
       ],
-      demoUrl: "https://ecommerce-analytics-demo.netlify.app",
-      githubUrl: "https://github.com/shivaragula/ecommerce-analytics",
-      status: "Live",
-      category: "Full-Stack"
-    },
-    {
-      id: 2,
-      title: "Smart Task Management System",
-      subtitle: "React & Firebase Application",
-      description: "An intelligent task management application with AI-powered priority suggestions, collaborative features, and advanced analytics to boost team productivity.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-      technologies: ["React", "Firebase", "Material-UI", "Node.js", "OpenAI API"],
-      metrics: {
-        users: "1.8K+",
-        performance: "35%",
-        rating: "4.7/5"
-      },
-      features: [
-        "AI-powered task prioritization",
-        "Real-time collaboration",
-        "Advanced analytics",
-        "Mobile-responsive design"
-      ],
-      demoUrl: "https://smart-task-manager-ai.netlify.app",
-      githubUrl: "https://github.com/shivaragula/smart-task-manager",
-      status: "Live",
-      category: "Web App"
-    },
-    {
-      id: 3,
-      title: "Customer Sentiment Analysis Tool",
-      subtitle: "Data Science & Machine Learning",
-      description: "A machine learning-powered tool that analyzes customer reviews and feedback to provide sentiment insights, helping businesses understand customer satisfaction trends.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      technologies: ["Python", "Scikit-learn", "NLTK", "Pandas", "Streamlit"],
-      metrics: {
-        accuracy: "92%",
-        performance: "50%",
-        rating: "4.9/5"
-      },
-      features: [
-        "Natural language processing",
-        "Sentiment classification",
-        "Interactive visualizations",
-        "Batch processing capability"
-      ],
-      demoUrl: "https://sentiment-analyzer-app.streamlit.app",
-      githubUrl: "https://github.com/shivaragula/sentiment-analysis",
-      status: "Live",
+      demoUrl: "https://github.com/shivaragula/student-performance-prediction",
+      githubUrl: "https://github.com/shivaragula/student-performance-prediction",
+      status: "Completed",
       category: "Data Science"
     },
     {
-      id: 4,
-      title: "Personal Finance Tracker",
-      subtitle: "Mobile-First Web Application",
-      description: "A comprehensive personal finance management application with expense tracking, budget planning, and financial goal setting features with beautiful data visualizations.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
-      technologies: ["React", "Express.js", "PostgreSQL", "Chart.js", "PWA"],
+      id: 2,
+      title: "Basic E-Commerce Website",
+      subtitle: "Academic Full-Stack Project",
+      description: "A simple e-commerce website built as an academic project featuring basic user authentication, product display, and shopping cart functionality. Developed to learn full-stack development fundamentals.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+      technologies: ["React", "Node.js", "Express", "MySQL", "JWT"],
       metrics: {
-        users: "3.2K+",
-        performance: "45%",
-        rating: "4.6/5"
+        products: "20",
+        users: "Local",
+        features: "5"
       },
       features: [
-        "Expense categorization",
-        "Budget tracking",
-        "Financial goal setting",
-        "Progressive Web App"
+        "User registration and login",
+        "Product catalog display",
+        "Basic shopping cart",
+        "Simple admin panel"
       ],
-      demoUrl: "https://finance-tracker-pro.vercel.app",
-      githubUrl: "https://github.com/shivaragula/finance-tracker",
+      demoUrl: "https://github.com/shivaragula/ecommerce-platform",
+      githubUrl: "https://github.com/shivaragula/ecommerce-platform",
+      status: "Completed",
+      category: "Full-Stack"
+    },
+    {
+      id: 3,
+      title: "Plant Disease Classification",
+      subtitle: "Academic Computer Vision Project",
+      description: "A basic computer vision project that identifies plant diseases from leaf images using simple CNN models. Built to learn deep learning fundamentals and image processing techniques.",
+      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=600&fit=crop",
+      technologies: ["Python", "TensorFlow", "Keras", "Flask", "OpenCV"],
+      metrics: {
+        accuracy: "72%",
+        diseases: "5",
+        images: "1000"
+      },
+      features: [
+        "Image upload and preprocessing",
+        "Basic disease classification",
+        "Simple web interface",
+        "Model training pipeline"
+      ],
+      demoUrl: "https://github.com/shivaragula/plant-disease-classification",
+      githubUrl: "https://github.com/shivaragula/plant-disease-classification",
+      status: "Completed",
+      category: "Machine Learning"
+    },
+    {
+      id: 4,
+      title: "Portfolio Website",
+      subtitle: "Personal Showcase Project",
+      description: "A responsive portfolio website built to showcase academic projects and technical skills. Features modern design, smooth animations, and mobile-first approach using React and modern web technologies.",
+      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
+      technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite", "Netlify"],
+      metrics: {
+        pages: "6",
+        responsive: "100%",
+        performance: "95+"
+      },
+      features: [
+        "Responsive design",
+        "Smooth animations",
+        "Dark/Light theme",
+        "SEO optimized"
+      ],
+      demoUrl: "https://shiva-portfolio.netlify.app",
+      githubUrl: "https://github.com/shivaragula/portfolio",
       status: "Live",
-      category: "Web App"
+      category: "Web Development"
     }
   ];
 
@@ -129,7 +129,7 @@ const FeaturedProjects = () => {
             Featured Projects
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto mb-8">
-            Showcasing my best work in full-stack development, data science, and innovative problem-solving
+            Showcasing my academic projects and learning journey in web development, data science, and programming
           </p>
           
           <div className="flex justify-center space-x-2">
