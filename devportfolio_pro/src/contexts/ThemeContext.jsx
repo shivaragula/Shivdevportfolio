@@ -12,12 +12,20 @@ export const useTheme = () => {
 
 export const ThemeProvider = ({ children }) => {
     const [isDarkMode, setIsDarkMode] = useState(() => {
-        // Check localStorage first, then system preference
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            return savedTheme === 'dark';
+        // Safe check for browser environment
+        if (typeof window === 'undefined') return false;
+        
+        try {
+            // Check localStorage first, then system preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                return savedTheme === 'dark';
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches;
+        } catch (error) {
+            console.warn('Theme detection failed:', error);
+            return false;
         }
-        return window.matchMedia('(prefers-color-scheme: dark)').matches;
     });
 
     useEffect(() => {

@@ -1,22 +1,21 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ScrollToTop";
-import ErrorBoundary from "components/ErrorBoundary";
-import NotFound from "pages/NotFound";
+
+// Import components directly (no lazy loading to avoid module issues)
+import AboutProfessionalStory from './pages/about-professional-story';
 import HomepageDeveloperPortfolioHub from './pages/homepage-developer-portfolio-hub';
 import ProjectsInnovationShowcase from './pages/projects-innovation-showcase';
 import ContactProfessionalNetwork from './pages/contact-professional-network';
 import ResumeResourcesPage from './pages/resume-professional-resources';
-import AboutProfessionalStory from './pages/about-professional-story';
 import SkillsTechnicalArsenal from './pages/skills-technical-arsenal';
+import NotFound from './pages/NotFound';
 
 const Routes = () => {
+  console.log('Routes component rendering...');
+  
   return (
     <BrowserRouter>
-      <ErrorBoundary>
-      <ScrollToTop />
       <RouterRoutes>
-        {/* Define your route here */}
         <Route path="/" element={<AboutProfessionalStory />} />
         <Route path="/homepage-developer-portfolio-hub" element={<HomepageDeveloperPortfolioHub />} />
         <Route path="/projects-innovation-showcase" element={<ProjectsInnovationShowcase />} />
@@ -26,7 +25,6 @@ const Routes = () => {
         <Route path="/skills-technical-arsenal" element={<SkillsTechnicalArsenal />} />
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
-      </ErrorBoundary>
     </BrowserRouter>
   );
 };
